@@ -1,8 +1,10 @@
 Introdução a Informatica
+1
 1945 - 1955 
 os computadores eram tão grandes que ocupavam salas imensas. foram basicamente construidos com valvulas e paineis, os o.s não existiam na epoca. os programadores, tambem
 operadores controlavam o computador por meios de interruptores, fios e luzes de aviso
 
+2
 1955 - 1970
 foi desinvolvido o que foi chamado desistema em lote, que permitiu melhor uso dos recursos computacionais. a base do sistema operacional era um programa monitor, usado para 
 enfileirar tarefas, pois executava uma tarefa de cada vez - recurso este conhecido como monotarefa. cada programa era registrado em cartões perfurados, que por sua vez eram
@@ -16,13 +18,33 @@ ken thompson (desenvolvedor que trabalhava nos laboratorios bell, e ajudou a cri
 a chamar-se unix
 a partir desse sistema muitos outros foram criados
 
+3
 1970 - 1980
 Surgimentos dos c.i e multiprogramação, temos uma nova fase dos s.o. e quem ajuda a criar essa fase é uma empresa bem conhecida: apple computing
 
+4
 1980 - 1990
 
 geração dos computadores pessoais. nessa fase houve a necessidade de criação de sistemas operacionais mais faceis para serem operados. nesse cenario aparece a outra gigante
 empresa deste meio: MICROSOFT.
+
+5
+1991 - 2000
+era das redes, neste momento os so tem que se voltar para uma melhor comunicação em redes. tambem é nessa geração que efetivamente surge um outro so.: linux
+tim berners-lee - criador do html
+
+6 
+2000 - 2011
+nesta geração iniciavam os so voltados para computadores moveis, tambem conhecidos por smartphone
+
+7
+2011 - 2013
+computadores com so 100% alocados na internet. como ecemplos destes computadores temos o chromebook da google
+
+8
+2013 - 2022
+sos voltados para televisões, consoles de videogames e oculos de realidade virtual e aumentada
+
 
 
 
