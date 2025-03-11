@@ -94,12 +94,44 @@ rede cliente/servidor
 topologia de redes
 as redes podem ser classificadas em sua forma (fisicas ou logicas) e seu tamanho
 as topologias fisicas de formas são:
+
 ponto-a-ponto
+um cabo liga um computador a outro
+
 estrela
+computadores ligados a um switch e se comunicam
+switch
+
 barra/barramento
+computadores ligados a uma barra
+
+
 anel
+todos ligados em um anel
+trafegam circularmente
+
 malha
+pegar um tipo de topologia varias da mesma e junta elas
+
 hibrida
+tudo junto e misturado
+
+topologias logicas
+arvore
+  a
+ / \
+ b  b 
+/ \ / \
+c c c c 
+
+
+
+broadcast
+token
+p2p
+
+
+
 
 
 
