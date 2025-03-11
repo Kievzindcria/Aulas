@@ -1,0 +1,107 @@
+operações com arquivos
+criação: criação sem escrita de dado algum
+destruição: remoção do arquivo para liberação do espaço
+abertura: abertura do arquivo, para colocar na memoria os atributos e a lista de endereços para tornar as operações posteriores mais rapidas
+fechamento: renover as referencias dos arquivos da memoria principal
+leitura:abertura do arquivo para leitura do seu conteudo
+escrita: processo de escrita do arquivo de escrita do arquivo. geralmente a escrita começa a partir de onde estiver o ponteiro esteja no final do arquivo ou durante a 
+escrita o final for atingido,o arquivo aumentará de tamanho
+concatenação: forma de escrita que só permite adicionar dados no final do arquivo
+busca:chamada que coloca o ponteiro em uma posição especifica do arquivo. depois dessa chamada, dados podem ser lidos/escritos apartir daquela posição
+definir atributos: server para definir ou alterar os atributos de certos arquivos. flags de proteção podem ser definidas com essa chamada
+renomeação: chamada de sistema para renomear um arquivo
+
+permissões dos arquivos
+como o nome já informa, permissões de arquivos é oq o usuario está apto a fazer ou não
+existem basicamente 4 tipos de permissões
+*ler
+*escrever
+*executar
+*sem permissões
+
+Sistemas de arquivos
+o sistema de arquivos é um conjunto usado em todos os hds ssds e chips de memoria flash. caso os componentes não tenham o sistema, os dados não poderão ser localizados
+e muito menos lidos em computadores e celulares com windows, linux, ios , ou android
+
+cada sistema operacional exige um sistema de arquivos diferente. alem disso, a propria evolução dos dispositivos de armazenamento contribuiram para o surgimento de novos sistemas
+
+no universo windows, o sistemas de arquivos é mais limitado, na epoca de pelo fat 16, devido as suas limitações, foi substituido pelo fat32, que anos depois foi substituido 
+pelo ntfs, este é usado até hoje pela flexibilidade
+
+já no amplo universo linux <3, onde é possivel encontrrar uma enorme variedade de distribuiçoes, o leque de sistemas de arquivos é bem maior, os mais usados são o ext3 e o ext4
+tambem há o xfs e o jfs, menos conhecidos
+as primeiras versões do windows usavam um sistema chamado fat16. o nome fat deriva da sigla file allocation table. esse sistema de arquivos possui uma tabela que serve 
+como um mapa de utilizações do disco
+
+
+para diminuir o disperdicio, foi lançada uma atualização chamada fat32. este sistema de arquivos passou a ser usado no windows 95 até o windows me, o tamanho dos clusters é menor,
+disperdiçando menos espaco, no entando, o padrão trazia outro problema: era muito lento, 6% mais lento que o sistema fat16
+
+btrfs b-tree file system, foi desinvolvido de maneira independente, por diversas instituições e gigantes do mercado como:
+linux foundation
+intel
+oracle
+facebook
+redhat
+suse
+fujitsu
+o formato se caracterisa pela tolerancia a falhas, manutenção, gerenciamento e sua capacidade de trabalhar com arquivos de até 16 exbibytes. é sem duvida alguma, um dos mais 
+poderosos sistemas de arquivos - e ainda se encontra em franco desinvolvimento
+
+organização e comandos basicos
+softwares < sistema operacional > hardware
+para entendermos melhor a organização do s.o precisamos entender oque é kernel
+
+Kernel é complexo demais para ser explicado de forma tecnica a um publico leigo no assunto. Basicamente ele começa a funcionar assim que o computador é ligado; nesse momento
+ele inicia a detecção de todo o hardware indispensavbel ao funcionamento da maquina (monitor, placa de video etc.) o sistema operacional é carregado em seguida e, uma vez que
+o usuario faça seu login, o kernel passa a administrar as principais funções dentro do S.O.: isso inclui o gerenciamento da memoria, dos processos, dos arquivos, e de todos os 
+dispositivos perifericos
+tipos de kernel
+kernel monolitico
+é a forma mais simples de organizar um S.O é colocar toda a sua funcionalidade dentro de um programa chamado kernel ou nucleo, ele é carregado na inicialização, e fica
+alocado na memoriaram da maquina até que ela ser utilizada até que ela seja desligada
+
+kernel hibrido
+como o nome já informa, é u tilizado para compatibilização e leitura de varios tipos de S.O
+
+microkernel
+é basicamente um kernel que cuida de modulos restritos.
+no exemplo da apple, o microkernel mach é um executavel que cuida das chamadas de i/o e tambem dos trivers que fizerem esses acesoss. alem disso cuida de audio e video
+
+painel de controle
+funcionalidades
+
+CMD / Powershell
+
+
+REDES DE COMPUTADORES
+componentes basicos
+repetidores, hubs, pontes, switches, e roteadores
+cabeamento: par trançado, cabo coaxial, conexões sem fio
+placa adaptadora de rede: converte os dados paralelos recebidos pela cpu em padrões eletricos adequados para a transmissão pela rede
+componente de software sistema operacional de rede( nos)
+meios de transmissão:
+cabo coaxial
+par trançado: stp/utp
+fibra óptica mono e multimodo
+conexões sem fio
+
+
+tipos de rede
+rede ponto-a-ponto
+rede cliente/servidor
+
+topologia de redes
+as redes podem ser classificadas em sua forma (fisicas ou logicas) e seu tamanho
+as topologias fisicas de formas são:
+ponto-a-ponto
+estrela
+barra/barramento
+anel
+malha
+hibrida
+
+
+
+
+
